@@ -33,8 +33,7 @@ class MyApp extends StatelessWidget {
                     fontSize: 24), //ใช้ Hex code สี Hello Me Live Code!!!
               ),
               SizedBox(height: 20),
-              Image.network(
-                'https://static7.depositphotos.com/1119834/693/i/950/depositphotos_6936466-stock-photo-teddy-bear-with-red-rose.jpg',
+              Image.network('https://static7.depositphotos.com/1119834/693/i/950/depositphotos_6936466-stock-photo-teddy-bear-with-red-rose.jpg',
                 height: 200,
               ),
               SizedBox(height: 10),
