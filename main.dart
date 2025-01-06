@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_random/randompage.dart';
-import 'package:flutter_application_random/secondpage.dart';
+import 'package:movepage_app/home_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,8 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: RandomPage() // ต่อกับ RandomPage
-
+      debugShowCheckedModeBanner: false,
+      home: HomePage()
     );
   }
 }
